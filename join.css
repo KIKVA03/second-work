@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.join-txt{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 50vw;
+    font-size: 30px;
+}
+.join-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40rem;
+    background-color: #202027;
+    height: 60vh;
+    border-radius: 20px;
+    margin-right:15rem ;
+    
+}
+.join-div > div{
+    display: flex;
+    flex-direction: column;
+}
+.join-div > div >label{
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.join-div > div >input{
+    outline: none;
+    background: none;
+    border: 1px solid #2E3852;
+    font-size: 1em;
+    padding: .5em;
+    color: inherit;
+    border-radius: 5px;
+}
+.join-now-btn{
+    background-color: rgb(26, 79, 226);
+    font-size: 1em;
+    color: inherit;
+    border-radius: 5px;
+    width: 43%;
+    height:50px;
+
+  }

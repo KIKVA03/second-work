@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+:root{
+    --blue:#053baf
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    margin:0;
+    padding:0;
+    background-color: #2F303A;
+    font-family: Poppins;
+    font-size: 1.2em;
+    color: white;
+    overflow: hidden;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    padding: 10px;
+}
+.linki{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 50%;
+    text-decoration: none;
+}
+
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav a{
+    text-decoration: none;
+    padding: 1rem;
+    color: inherit;
+}
+.main-nav a:hover{
+    color:rgb(71, 70, 70) ;
+}
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+.div-fell-music{
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;  
+    padding-top:3cm ;
+    height: 100%;
+    width: 50%;
+}
+.join-button{
+    color: white;
+    background-color:var(--blue);
+    width: 100px;
+    height: 50px;
+    border-radius: .5rem;
+    text-decoration: none;
+    border:0;
+    margin-top:30px;
+    cursor: pointer;
+}
+.div-title{
+    font-weight: 500;
+    font-size: 2.5em;
+}
+section{
+    height: calc(100% - 140px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+.wooman-img{
+    background: center bottom url("./images/landing-page-girl.png");
+    background-repeat: no-repeat;
+    background-size: 11.5cm;
+    height: 100%;
+    width: 50%;
+}
+.sircle1{
+    position: absolute;
+    top: 65vh;
+    left: 17vh;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    background-color:rgb(152, 58, 128, .1);
+    z-index: -1;
+}
+.sircle2{
+    position: absolute;
+    top: 15vh;
+    left: 75vh;
+    height: 22vh;
+    width: 22vh;
+    border-radius: 50%;
+    background-color:rgb(52, 87, 178, .1);
+    z-index: -1;
+}
+.sircle3{
+    position: absolute;
+    bottom:-90px;
+    right: -90px;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    background-color:rgb(52, 87, 178, .1);
+    z-index: -1;
+}
